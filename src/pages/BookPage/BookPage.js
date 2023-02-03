@@ -43,7 +43,7 @@ const BookPage = () => {
   return (
     <>
       {bookJsx}
-      <button className="home-btn" onClick={() => navigate('/')}>
+      <button className="home-btn" onClick={() => navigate('/my-reads-app')}>
         HomePage
       </button>
     </>

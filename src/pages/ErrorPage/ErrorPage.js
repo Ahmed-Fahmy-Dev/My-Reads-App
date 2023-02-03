@@ -6,7 +6,7 @@ const ErrorPage = () => {
   return (
     <div>
       <p style={{ textAlign: 'center', fontSize: '54px', fontWeight: 'bold', color: 'red' }}>This page doesnt exist</p>
-      <button onClick={() => navigate('/')}>Home Page</button>
+      <button onClick={() => navigate('/my-reads-app')}>Home Page</button>
     </div>
   );
 };

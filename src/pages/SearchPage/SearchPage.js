@@ -11,7 +11,7 @@ const SearchPage = () => {
   const { searchedBooks, isLoading } = useSelector((store) => store.books, shallowEqual);
 
   const handleBackbtnClick = () => {
-    navigate('/');
+    navigate('/my-reads-app');
     dispatch(resetSearchResults([]));
   };
 
