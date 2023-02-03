@@ -8,8 +8,8 @@ const AppRoutes = () => (
       <Route index element={<HomePage />} />
       <Route path="/my-reads-app/book/:bookId" element={<BookPage />} />
       <Route path="/my-reads-app/search" element={<SearchPage />} />
-      <Route path="/*" element={<ErrorPage />} />
     </Route>
+    <Route path="/*" element={<ErrorPage />} />
   </Routes>
 );
 
