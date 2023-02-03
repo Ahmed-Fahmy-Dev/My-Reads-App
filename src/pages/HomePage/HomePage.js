@@ -22,7 +22,7 @@ const HomePage = () => {
           <Shelf books={books} title="Read" shelf="read" />
         </div>
         <div className="open-search">
-          <button onClick={() => navigate('/search')} />
+          <button onClick={() => navigate('/my-reads-app/search')} />
         </div>
       </div>
     </div>

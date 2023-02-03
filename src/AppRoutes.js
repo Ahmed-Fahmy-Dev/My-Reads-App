@@ -6,8 +6,8 @@ const AppRoutes = () => (
   <Routes>
     <Route path="/my-reads-app" element={<AppLayout />}>
       <Route index element={<HomePage />} />
-      <Route path="/book/:bookId" element={<BookPage />} />
-      <Route path="/search" element={<SearchPage />} />
+      <Route path="/my-reads-app/book/:bookId" element={<BookPage />} />
+      <Route path="/my-reads-app/search" element={<SearchPage />} />
       <Route path="/*" element={<ErrorPage />} />
     </Route>
   </Routes>

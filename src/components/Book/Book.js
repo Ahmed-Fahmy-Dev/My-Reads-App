@@ -41,7 +41,7 @@ const Book = ({ title, author, url, id, shelf }) => {
     <div className="book">
       <div className="book-top">
         <div
-          onClick={() => navigate(`/book/${id}`)}
+          onClick={() => navigate(`/my-reads-app/book/${id}`)}
           className="book-cover"
           style={{
             width: 128,
