@@ -42,7 +42,6 @@ export const updateBookCategory = createAsyncThunk(
 );
 
 export const searchBooks = createAsyncThunk('books/searchBooks', async (query, { rejectWithValue }) => {
-  console.log(query);
   try {
     const data = await search(query);
     return data;
@@ -158,7 +157,6 @@ const booksSlice = createSlice({
     });
 
     builder.addCase(fetchBook.fulfilled, (state, action) => {
-      console.log(action.payload);
       state.book = action.payload;
       state.isLoading = false;
     });
